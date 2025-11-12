@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membuka Mentimeter...</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .box {
+      text-align: center;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      max-width: 500px;
+    }
+    h2 {
+      color: #0072ff;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #0072ff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #005bd1;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Membuka Mentimeter...</h2>
+    <p>Anda akan diarahkan secara otomatis dalam beberapa detik.</p>
+    <a class="button" href="https://www.menti.com/altogcxhy616" target="_blank">
+      Klik di sini jika tidak otomatis
+    </a>
+  </div>
+
+  <script>
+    // Otomatis buka Mentimeter setelah 2 detik
+    setTimeout(function() {
+      window.open("https://www.menti.com/altogcxhy616", "_blank");
+    }, 2000);
+  </script>
+</body>
+</html>
